@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>todo test</title>
+    <link href="https://cdn.rawgit.com/mochajs/mocha/2.2.5/mocha.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="mocha"></div>
+    <div id="fixtures" style="display: none; visibility: hidden;">
+    <input type="text" class="txt-result"></input>
+    </div>
+    
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/mocha/mocha.js"></script>
+    <script src="../node_modules/chai/chai.js"></script>
+    <script src="../node_modules/requirejs/require.js"></script>
+    <script src="../js/model.pagenav.js"></script>
+    <script src="../js/view.pagenav.js"></script>
+    <script src="../js/presenter.pagenav.js"></script>
+    
+    <script>mocha.setup("bdd")</script>
+    <script src="test.index.js"></script>
+    <script>
+        mocha.checkLeaks();
+        mocha.run();
+    </script>
+</body>
+</html>

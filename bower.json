@@ -1,0 +1,20 @@
+{
+  "name": "uiadvanced_final",
+  "description": "my final project",
+  "main": "index.js",
+  "authors": [
+    "kgblue38"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/kgblue38/UIAdvacned_final",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "eventEmitter": "^5.0.0"
+  }
+}
