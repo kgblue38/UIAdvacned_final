@@ -11,7 +11,6 @@ define([
             "url": url,
             "type": "get"
         }, function(items) {
-            console.log(items);
             itemsObj = { items: items };
             dfd.resolve(itemsObj);
         });
@@ -20,4 +19,10 @@ define([
     return {
         getItems: getItems
     }
+});
+
+$.ajax({
+    
+}).done(function(){
+    
 });

@@ -63,13 +63,7 @@ define([
             $(".right-single-arrow").addClass("disabled");
         }    
     }
-    
-    function movePageByDoubleArrow(e) {
-        if ($(e.target).text() === "«") {
-        } else {
-        }
-    }    
-    
+
     return {
         init: init
     }
